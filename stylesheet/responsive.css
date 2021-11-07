@@ -5,8 +5,56 @@
     --penicilin : #fff;
 }
 
+/* Tablet or iPad */
+
+@media all and (max-width: 1000px) {
+
+    header {
+        margin: 16px;
+    }
+    
+    .logo {
+        width: 56px;
+    }
+    
+    h1 {
+        font-size: 64px;
+    }
+    
+    h2 {
+        font-size: 56px;
+    }
+    
+    h4, h5 {
+        font-size: 12px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    .section {
+        margin: 40px 16px;
+    }
+    
+    .primary, 
+    .secondary {
+        margin: 0 8px;
+    }
+    
+    .part {
+        margin: 24px;
+        width: 33%;
+        height: 120px;
+    }
+
+}
+
+
+
 /* Mobile */
-@media screen and (max-width: 670px) {
+
+@media all and (max-width: 670px) {
     
     header {
         margin: 16px;
