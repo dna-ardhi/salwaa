@@ -130,7 +130,7 @@ nav a:hover {
 
 .mobile-nav {
     background-color: var(--raspberry);
-    font-size: 32px;
+    font-size: 24px;
     display: none;
     position: fixed;
     bottom: 0;
