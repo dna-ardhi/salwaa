@@ -139,6 +139,10 @@ nav a:hover {
     z-index: 10;
 }
 
+.mobile-nav a {
+    color: var(--penicilin);
+}
+
 /* ================ Home ================ */
 
 .section {
