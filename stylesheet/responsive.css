@@ -1,0 +1,100 @@
+:root {
+    --raspberry : #ef0d33;
+    --space-coal : #111517;
+    --deep-mist : #888888;
+    --penicilin : #fff;
+}
+
+/* Mobile */
+@media screen and (max-width: 670px) {
+    
+    header {
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .web-nav{
+        display: none;
+        width: 100%;
+    }
+    
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 100px 0;
+        padding: 0 16px;
+    }
+
+    .primary, 
+    .secondary {
+        margin: 16px 0;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about .primary {
+        order: 0;
+    }
+
+    .about .secondary {
+        order: 1;
+    }
+
+    
+    .secondary h3 {
+        margin-top: 0px;
+    }
+    
+    
+    .education {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .part {
+        width: 100%;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+    
+
+
+    .mobile-nav {
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 2px solid var(--space-coal);
+        padding: 8px 0;
+        border-top-left-radius: 16px;        
+        border-top-right-radius: 16px;        
+    }
+
+    nav a:hover {
+        color: var(--space-coal);
+    }
+
+    nav a:active {
+       background-color: var(--deep-mist);
+    }
+
+    .copyright {
+        width : 30%;
+    }
+
+    footer {
+        padding-bottom: 100px;
+    }
+
+    footer img {
+        display: none;
+    }
+
+}

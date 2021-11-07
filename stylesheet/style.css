@@ -128,6 +128,17 @@ nav a:hover {
     background-color: var(--raspberry);
 }
 
+.mobile-nav {
+    background-color: var(--raspberry);
+    font-size: 32px;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 10;
+}
+
 /* ================ Home ================ */
 
 .section {
@@ -172,8 +183,7 @@ span {
 .image img {
     display: flex;
     justify-content: center;
-    max-width: 500px;
-    min-width: 240px;
+       
 }
 /* ========================= About ========================= */
 
@@ -254,7 +264,7 @@ input {
     font-family: Montserrat;
     font-weight: 500;
     border-radius: 24px;
-    padding: 8px;
+    padding: 8px 16px;
 }
 
 textarea {
@@ -265,7 +275,7 @@ textarea {
     font-weight: 500;
     text-align: start;
     border-radius: 16px;
-    padding: 8px;
+    padding: 8px 16px;
 }
 
 
