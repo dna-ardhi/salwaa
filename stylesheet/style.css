@@ -69,7 +69,37 @@ h5 {
     --penicilin : #fff;
 }
 
-/* ================ darkmode ================ */
+/* ========================= Animations ========================= */
+
+@keyframes left {
+    from {
+        position: relative;
+        left: -160px;
+        opacity: 0;
+    }
+
+    to {
+        position: relative;
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes right {
+    from {
+        position: relative;
+        right: -160px;
+        opacity: 0;
+    }
+
+    to {
+        position: relative;
+        right: 0;
+        opacity: 1;
+    }
+}
+
+/* ========================= Dark theme ========================= */
 
 .dark, 
 .theme .dark {
@@ -93,7 +123,7 @@ h5 {
     color:var(--penicilin);
 }
 
-/* ================ Header ================ */
+/* ========================= Header ========================= */
 
 header {
     display: flex;
@@ -143,7 +173,7 @@ nav a:hover {
     color: var(--penicilin);
 }
 
-/* ================ Home ================ */
+/* ========================= Home ========================= */
 
 .section {
     display: flex;
@@ -160,6 +190,8 @@ nav a:hover {
 .primary {
     width: 100%;
     margin: 0 16px;
+    animation-name: left;
+    animation-duration: 3s;
 }
 
 
@@ -168,6 +200,8 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     margin: 0 16px;
+    animation-name: right;
+    animation-duration: 3s;
 }
 
 .secondary p {
@@ -187,8 +221,9 @@ span {
 .image img {
     display: flex;
     justify-content: center;
-       
 }
+
+
 /* ========================= About ========================= */
 
 .about {
