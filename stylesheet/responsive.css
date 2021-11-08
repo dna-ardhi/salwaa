@@ -10,9 +10,9 @@
 @media all and (max-width: 1000px) {
 
     header {
-        margin: 16px;
+        padding-top: 8px;
     }
-    
+
     .logo {
         width: 56px;
     }
@@ -57,7 +57,10 @@
 @media all and (max-width: 670px) {
     
     header {
+        position: static;
+        justify-content: space-between;
         margin: 16px;
+        width: auto;
     }
 
     .logo {

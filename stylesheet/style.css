@@ -106,7 +106,8 @@ h5 {
     display: none;
 }
 
-.darkmode {
+.darkmode,
+.darkmode header {
     color: var(--penicilin);
     background-color: var(--space-coal);
 }
@@ -127,9 +128,13 @@ h5 {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 0 160px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--penicilin);
+    
 }
 
 .web-nav {
@@ -176,7 +181,10 @@ nav a:hover {
 
 .mobile-nav a {
     color: var(--penicilin);
+    
 }
+
+
 
 /* ========================= Home ========================= */
 
@@ -185,12 +193,10 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     margin: 40px 160px;
-    padding: 40px 0;
+    padding: 48px 0;
 }
 
-.home {
-    padding: 0px
-}
+
 
 .primary {
     width: 100%;
