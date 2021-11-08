@@ -76,12 +76,14 @@ h5 {
         position: relative;
         left: -160px;
         opacity: 0;
+        z-index: -10;
     }
 
     to {
         position: relative;
         left: 0;
         opacity: 1;
+        z-index: -10;
     }
 }
 
@@ -90,12 +92,14 @@ h5 {
         position: relative;
         right: -160px;
         opacity: 0;
+        z-index: -10;
     }
-
+    
     to {
         position: relative;
         right: 0;
         opacity: 1;
+        z-index: -10;
     }
 }
 
