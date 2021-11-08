@@ -103,7 +103,7 @@
 
     
     .secondary h3 {
-        margin-top: 0px;
+        margin-top: 40px;
     }
     
     
@@ -116,6 +116,18 @@
 
     .part {
         width: 100%;
+    }
+
+    .informal .part {
+        height: 80px;
+    }
+
+    .works .secondary {
+        margin-top: 24px;
+    }
+
+    .works .secondary .part {
+        height: 64px;
     }
 
     input, textarea {

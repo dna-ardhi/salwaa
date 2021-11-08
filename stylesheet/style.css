@@ -132,6 +132,11 @@ header {
     margin: 0 160px;
 }
 
+.web-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav a {
     text-transform: uppercase;
     font-weight: 500;
@@ -287,9 +292,7 @@ span {
     margin-top: 160px;
 }
 
-.works
-.secondary
-.part {
+.works .secondary .part {
     width: fit-content;
 }
 
