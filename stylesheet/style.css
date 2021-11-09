@@ -138,7 +138,6 @@ header {
     top: 0;
     width: 100%;
     background-color: var(--penicilin);
-    
 }
 
 .logo{
@@ -164,8 +163,9 @@ nav a:hover {
 }
 
 .theme {
+    margin: 8px;
     padding: 8px;
-    border-radius: 25px;
+    border-radius: 80px;
 }
 
 .theme h1 {
@@ -190,7 +190,6 @@ nav a:hover {
 
 .mobile-nav a {
     color: var(--penicilin);
-    
 }
 
 
@@ -202,24 +201,21 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     margin: 40px 160px;
-    padding: 48px 0;
+    padding-top: 80px;
 }
-
-
 
 .primary {
     width: 100%;
-    margin: 0 16px;
+    margin: 0px;
     animation-name: left;
     animation-duration: 3s;
 }
-
 
 .secondary {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 0 16px;
+    margin: 0px;
     animation-name: right;
     animation-duration: 3s;
 }
@@ -276,8 +272,8 @@ span {
 }
 
 .secondary h3 {
-    padding: 16px 0;
-    margin-top: 64px;
+    padding: 8px 0;
+    margin-top: 24px;
 }
 
 .part {

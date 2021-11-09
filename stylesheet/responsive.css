@@ -63,7 +63,7 @@
     header {
         position: static;
         justify-content: space-between;
-        margin: 16px;
+        margin: 0 4px;
         width: auto;
     }
 
