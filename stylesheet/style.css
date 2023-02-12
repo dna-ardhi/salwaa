@@ -211,6 +211,12 @@ nav a:hover {
     animation-duration: 3s;
 }
 
+.primary.image > img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+}
+
 .secondary {
     width: 100%;
     display: flex;
